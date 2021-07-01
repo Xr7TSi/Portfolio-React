@@ -8,7 +8,7 @@ function Home() {
       <content>
         <div class="container" id="home-text">
             <div class="col-md-12">
-                <h1>I'm Jonathan.  I develop full-stack web applications.</h1>
+                <h1>Here's some text for the home page.</h1>
             </div>
           </div>
         
