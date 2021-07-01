@@ -1,16 +1,6 @@
 import React from 'react';
-import Home from "./components/Home";
-import Nav from "./components/Nav";
+import Container from "./components/Container";
 
-
-
-function App() {
-  return (
-    <div>  
-    <Nav />
-    <Home />
-    </div>
-  )
-}
+const App = () => <Container />;
 
 export default App;
