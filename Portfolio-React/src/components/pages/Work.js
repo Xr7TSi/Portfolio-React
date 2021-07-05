@@ -70,8 +70,8 @@ function Work() {
         </Carousel.Caption>
       </Carousel.Item>
 
-    {/* provides brief period with no image between slides. */}
-    <Carousel.Item interval="200"></Carousel.Item>
+      {/* provides brief period with no image between slides. */}
+      <Carousel.Item interval="200"></Carousel.Item>
 
       <Carousel.Item interval="2000">
         <img className="d-block w-100" src={news} alt="News Flash" />
@@ -115,11 +115,7 @@ function Work() {
       <Carousel.Item interval="200"></Carousel.Item>
 
       <Carousel.Item interval="2000">
-        <img
-          className="d-block w-100"
-          src={weather}
-          alt="Weather Dashboard"
-        />
+        <img className="d-block w-100" src={weather} alt="Weather Dashboard" />
       </Carousel.Item>
 
       <Carousel.Item>
@@ -160,11 +156,7 @@ function Work() {
       <Carousel.Item interval="200"></Carousel.Item>
 
       <Carousel.Item interval="2000">
-        <img
-          className="d-block w-100"
-          src={workday}
-          alt="Workday Scheduler"
-        />
+        <img className="d-block w-100" src={workday} alt="Workday Scheduler" />
       </Carousel.Item>
 
       <Carousel.Item>
@@ -174,25 +166,33 @@ function Work() {
           alt="Workday Scheduler blurred"
         />
         <Carousel.Caption style={styles.carouselCaption}>
-        <h3>
-                     Workday Scheduler is a simple day planner.
-                    </h3>
-                    <h3>
-                      It's built with JavaScript.  It uses moment.js, bootstrap and local storage.  
-                    </h3>
-                    <h3>
-                      <a href="https://github.com/Xr7TSi/Workday-Scheduler" class="btn btn-primary"><h5>See the repo</h5></a>
-                      <a href="https://xr7tsi.github.io/Workday-Scheduler/" class="btn btn-primary"><h5>See it deployed</h5></a>
-                    </h3>
+          <h3>Workday Scheduler is a simple day planner.</h3>
+          <h3>
+            It's built with JavaScript. It uses moment.js, bootstrap and local
+            storage.
+          </h3>
+          <h3>
+            <a
+              href="https://github.com/Xr7TSi/Workday-Scheduler"
+              class="btn btn-primary"
+              style={styles.buttonPrimary}
+            >
+              <h5>See the repo</h5>
+            </a>
+            <a
+              href="https://xr7tsi.github.io/Workday-Scheduler/"
+              class="btn btn-primary"
+              style={styles.buttonPrimary}
+            >
+              <h5>See it deployed</h5>
+            </a>
+          </h3>
         </Carousel.Caption>
       </Carousel.Item>
 
       {/* provides brief period with no image between slides. */}
       <Carousel.Item interval="200"></Carousel.Item>
     </Carousel>
-
-
-
   );
 }
 

@@ -23,7 +23,7 @@ function Contact() {
           <a href="https://github.com/Xr7TSi" className="btn btn-primary" style={styles.navbar}><h5>GitHub</h5></a>
           <a href="https://www.linkedin.com/in/jonathan-rein" className="btn btn-primary" style={styles.navbar}><h5>Linkedin</h5></a>
           <a href="https://docs.google.com/document/d/e/2PACX-1vQNIXOZBbExarlcZ2Bx8j77IGd1GlLuicBgRYirct5Ru1CEIHU57YNGps_HXoIj_IOZ6AWQYV1ZtuSm/pub" class="btn btn-primary" style={styles.navbar}><h5>Resume</h5></a>
-          <a href="https://www.strava.com/athletes/jonathan_rein" Name="btn btn-primary" style={styles.navbar}><h5>Strava</h5></a>
+          <a href="https://www.strava.com/athletes/jonathan_rein" className="btn btn-primary" style={styles.navbar}><h5>Strava</h5></a>
 
         </div>
       </div>
