@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import Home from './Home';
-import Work from './Work';
-import Contact from '.Contact';
+import Nav from './Nav';
+import Home from './pages/Home';
+import Work from './pages/Work';
+import Contact from './pages/Contact';
 
 export default function Container() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -10,10 +11,10 @@ export default function Container() {
     if (currentPage === 'Home') {
       return <Home />;
     }
-    if (currentPage === 'Work') {
-      return <Work />;
+    if (currentPage === 'Contact') {
+      return <Contact />;
     }
-    return <Contact />;
+    return <Work />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
@@ -21,7 +22,7 @@ export default function Container() {
   return (
     <div>
       {/* We are passing the currentPage from state and the function to update it */}
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
     </div>
