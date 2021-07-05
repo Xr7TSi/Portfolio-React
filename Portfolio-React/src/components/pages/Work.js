@@ -24,6 +24,7 @@ function Work() {
           <img
             className="d-block w-100"
             src="../../assets/work-images/Birthday-Clock-2000x900.png"
+            // src="https://www.placecage.com/200/300"
             alt="Tick Tock Birthday Clock"
           />
           <Carousel.Caption>
