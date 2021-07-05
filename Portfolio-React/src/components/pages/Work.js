@@ -14,6 +14,14 @@ const styles = {
     color: 'black'
   },
 
+  buttonPrimary: {
+    color: 'white', 
+    backgroundColor: 'rgb(30, 8, 153)', 
+    fontSize: '28px', 
+    marginLeft: '0px', 
+    marginTop: '45px'
+  },
+
 };
 
 
@@ -43,8 +51,8 @@ function Work() {
                       It's built with JavaScript.  It uses mysql, bcrypt, dotenv, express, handlebars, bootstrap, session and sequelize.  
                      </h3>
                     <h3>
-                      <a href="https://github.com/Xr7TSi/Tick-Tock-Birthday-Clock" class="btn btn-primary"><h5>See the repo</h5></a>
-                      <a href="https://tick-tock-birthday-clock.herokuapp.com/" class="btn btn-primary"><h5>See it deployed</h5></a>
+                      <a href="https://github.com/Xr7TSi/Tick-Tock-Birthday-Clock" class="btn btn-primary" style={styles.buttonPrimary}><h5>See the repo</h5></a>
+                      <a href="https://tick-tock-birthday-clock.herokuapp.com/" class="btn btn-primary" style={styles.buttonPrimary}><h5>See it deployed</h5></a>
                     </h3>
           </Carousel.Caption>
         </Carousel.Item>
@@ -71,8 +79,8 @@ function Work() {
                       It's built with JavaScript.  It uses APIs, bootstrap and local storage.   
                      </h3>
                       <h3>
-                        <a href="https://github.com/Xr7TSi/News-Flash" class="btn btn-primary"><h5>See the repo</h5></a>
-                        <a href="https://xr7tsi.github.io/News-Flash/" class="btn btn-primary"><h5>See it deployed</h5></a>
+                        <a href="https://github.com/Xr7TSi/News-Flash" className="btn btn-primary" style={styles.buttonPrimary}><h5>See the repo</h5></a>
+                        <a href="https://xr7tsi.github.io/News-Flash/" className="btn btn-primary" style={styles.buttonPrimary}><h5>See it deployed</h5></a>
                       </h3>
           </Carousel.Caption>
         </Carousel.Item>
@@ -99,8 +107,8 @@ function Work() {
                       It's built with JavaScript.  It uses APIs, bootstrap and local storage.  
                      </h3>
                     <h3>
-                      <a href="https://github.com/Xr7TSi/Weather-Dashboard" class="btn btn-primary"><h5>See the repo</h5></a>
-                      <a href="https://xr7tsi.github.io/Weather-Dashboard/" class="btn btn-primary"><h5>See it deployed</h5></a>
+                      <a href="https://github.com/Xr7TSi/Weather-Dashboard" class="btn btn-primary" style={styles.buttonPrimary}><h5>See the repo</h5></a>
+                      <a href="https://xr7tsi.github.io/Weather-Dashboard/" class="btn btn-primary" style={styles.buttonPrimary}><h5>See it deployed</h5></a>
                     </h3>
           </Carousel.Caption>
         </Carousel.Item>

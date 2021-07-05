@@ -5,7 +5,7 @@ function Home() {
   return (
   <div className="container" id="home-text">
       <div className="col-md-12">
-          <h1>Here's some text for the home page.</h1>
+          <h1>I'm Jonathan.  I develop full-stack web applications.</h1>
       </div>
   </div>
   );
