@@ -26,9 +26,15 @@ const styles = {
 };
 
 function Work() {
+
+  
   return (
-    <Carousel fade>
-      <Carousel.Item interval="2000">
+    <Carousel fade >
+
+       {/* provides brief period with no image between slides. */}
+       <Carousel.Item interval={200}></Carousel.Item>
+       
+      <Carousel.Item interval={2000}>
         <img
           className="d-block w-100"
           src={birthday}
@@ -71,9 +77,9 @@ function Work() {
       </Carousel.Item>
 
       {/* provides brief period with no image between slides. */}
-      <Carousel.Item interval="200"></Carousel.Item>
+      <Carousel.Item interval={200}></Carousel.Item>
 
-      <Carousel.Item interval="2000">
+      <Carousel.Item interval={2000}>
         <img className="d-block w-100" src={news} alt="News Flash" />
       </Carousel.Item>
 
@@ -112,9 +118,9 @@ function Work() {
       </Carousel.Item>
 
       {/* provides brief period with no image between slides. */}
-      <Carousel.Item interval="200"></Carousel.Item>
+      <Carousel.Item interval={200}></Carousel.Item>
 
-      <Carousel.Item interval="2000">
+      <Carousel.Item interval={2000}>
         <img className="d-block w-100" src={weather} alt="Weather Dashboard" />
       </Carousel.Item>
 
@@ -153,9 +159,9 @@ function Work() {
       </Carousel.Item>
 
       {/* provides brief period with no image between slides. */}
-      <Carousel.Item interval="200"></Carousel.Item>
+      <Carousel.Item interval={200}></Carousel.Item>
 
-      <Carousel.Item interval="2000">
+      <Carousel.Item interval={2000}>
         <img className="d-block w-100" src={workday} alt="Workday Scheduler" />
       </Carousel.Item>
 
@@ -190,8 +196,6 @@ function Work() {
         </Carousel.Caption>
       </Carousel.Item>
 
-      {/* provides brief period with no image between slides. */}
-      <Carousel.Item interval="200"></Carousel.Item>
     </Carousel>
   );
 }

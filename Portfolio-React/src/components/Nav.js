@@ -19,7 +19,7 @@ const styles = {
 function Nav({ currentPage, handlePageChange }) {
     return (
       
-      <ul className="nav nav-tabs" >
+      <ul className="nav nav-tabs"style={styles.navbarBackground}>
           <a className="navbar-brand" style={styles.navbarLogo} >Jonathan Rein</a>
         <li className="nav-item">
           <a
@@ -52,6 +52,10 @@ function Nav({ currentPage, handlePageChange }) {
       </ul>
     );
   }
+
+
+
+
 
 
 export default Nav;
