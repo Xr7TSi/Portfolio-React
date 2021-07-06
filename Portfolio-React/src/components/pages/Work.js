@@ -33,8 +33,8 @@ function Work() {
   return (
     <Carousel fade indicators={false} controls={false} >
 
-      {/* provides brief period with no image between slides. */}
-      <Carousel.Item interval={200}></Carousel.Item>
+       {/* provides brief period with no image between slides. */}
+       <Carousel.Item interval={200}></Carousel.Item>
 
 
       <Carousel.Item interval={1500}>
