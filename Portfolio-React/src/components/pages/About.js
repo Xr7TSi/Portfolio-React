@@ -1,6 +1,7 @@
 import React from 'react';
 
 
+
 function About() {
   return (
   <div className="container" id="home-text">
@@ -11,5 +12,7 @@ function About() {
   </div>
   );
 }
+
+
 
 export default About;
