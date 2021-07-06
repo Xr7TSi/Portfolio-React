@@ -12,7 +12,7 @@ import workdayBlur from "../../assets/work-images/Work-Day-Scheduler-2000x900-bl
 const styles = {
   carouselCaption: {
     position: "absolute",
-    top: "150px",
+    top: "175px",
     color: "black",
   },
 
@@ -23,18 +23,20 @@ const styles = {
     marginLeft: "0px",
     marginTop: "45px",
   },
+
+ 
 };
 
 function Work() {
 
   
   return (
-    <Carousel fade >
+    <Carousel fade indicators={false} controls={false} >
 
-       {/* provides brief period with no image between slides. */}
-       <Carousel.Item interval={200}></Carousel.Item>
-       
-      <Carousel.Item interval={2000}>
+      {/* provides brief period with no image between slides. */}
+      <Carousel.Item interval={100}></Carousel.Item>
+
+      <Carousel.Item interval={1500}>
         <img
           className="d-block w-100"
           src={birthday}
@@ -42,7 +44,7 @@ function Work() {
         />
       </Carousel.Item>
 
-      <Carousel.Item>
+      <Carousel.Item interval={5000}>
         <img
           className="d-block w-100"
           src={birthdayBlur}
@@ -53,10 +55,10 @@ function Work() {
             Tick Tock Birthday Clock is a place to create and share birthday
             wishlists.
           </h3>
-          <h3>
+          {/* <h3>
             It's built with JavaScript. It uses mysql, bcrypt, dotenv, express,
             handlebars, bootstrap, session and sequelize.
-          </h3>
+          </h3> */}
           <h3>
             <a
               href="https://github.com/Xr7TSi/Tick-Tock-Birthday-Clock"
@@ -79,11 +81,11 @@ function Work() {
       {/* provides brief period with no image between slides. */}
       <Carousel.Item interval={200}></Carousel.Item>
 
-      <Carousel.Item interval={2000}>
+      <Carousel.Item interval={1500}>
         <img className="d-block w-100" src={news} alt="News Flash" />
       </Carousel.Item>
 
-      <Carousel.Item>
+      <Carousel.Item interval={5000}>
         <img
           className="d-block w-100"
           src={newsBlur}
@@ -91,13 +93,13 @@ function Work() {
         />
         <Carousel.Caption style={styles.carouselCaption}>
           <h3>
-            News Flash presents stories pulled from the web based on the user's
+            News Flash gathers news based on the user's
             news category preferences.
           </h3>
-          <h3>
+          {/* <h3>
             It's built with JavaScript. It uses APIs, bootstrap and local
             storage.
-          </h3>
+          </h3> */}
           <h3>
             <a
               href="https://github.com/Xr7TSi/News-Flash"
@@ -120,11 +122,11 @@ function Work() {
       {/* provides brief period with no image between slides. */}
       <Carousel.Item interval={200}></Carousel.Item>
 
-      <Carousel.Item interval={2000}>
+      <Carousel.Item interval={1500}>
         <img className="d-block w-100" src={weather} alt="Weather Dashboard" />
       </Carousel.Item>
 
-      <Carousel.Item>
+      <Carousel.Item interval={5000}>
         <img
           className="d-block w-100"
           src={weatherBlur}
@@ -132,13 +134,12 @@ function Work() {
         />
         <Carousel.Caption style={styles.carouselCaption}>
           <h3>
-            Weather Dashboard gives the user the current weather and a five day
-            forecast for any city in the world.
+            Weather Dashboard provides weather data for any city in the world.
           </h3>
-          <h3>
+          {/* <h3>
             It's built with JavaScript. It uses APIs, bootstrap and local
             storage.
-          </h3>
+          </h3> */}
           <h3>
             <a
               href="https://github.com/Xr7TSi/Weather-Dashboard"
@@ -161,11 +162,11 @@ function Work() {
       {/* provides brief period with no image between slides. */}
       <Carousel.Item interval={200}></Carousel.Item>
 
-      <Carousel.Item interval={2000}>
+      <Carousel.Item interval={1500}>
         <img className="d-block w-100" src={workday} alt="Workday Scheduler" />
       </Carousel.Item>
 
-      <Carousel.Item>
+      <Carousel.Item interval={5000}>
         <img
           className="d-block w-100"
           src={workdayBlur}
@@ -173,10 +174,10 @@ function Work() {
         />
         <Carousel.Caption style={styles.carouselCaption}>
           <h3>Workday Scheduler is a simple day planner.</h3>
-          <h3>
+          {/* <h3>
             It's built with JavaScript. It uses moment.js, bootstrap and local
             storage.
-          </h3>
+          </h3> */}
           <h3>
             <a
               href="https://github.com/Xr7TSi/Workday-Scheduler"
@@ -195,6 +196,8 @@ function Work() {
           </h3>
         </Carousel.Caption>
       </Carousel.Item>
+
+     
 
     </Carousel>
   );
