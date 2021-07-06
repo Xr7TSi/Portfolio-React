@@ -79,10 +79,16 @@
   margin-top: 210px;
   margin-bottom: 100px;
   text-align: center;
+  color: white
 }
 
-body {
+/* body {
   background-image: url(../assets/backgrounds/white-wood-vertical-texture.png);
+  font-family: "Source+Sans+Pro", sans-serif;
+} */
+
+body {
+  background-image: url(../assets/backgrounds/stripes-vertical-shadow-color-wallpaper-preview.jpg);
   font-family: "Source+Sans+Pro", sans-serif;
 }
 

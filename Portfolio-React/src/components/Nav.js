@@ -4,8 +4,7 @@ import '../styles/style.css';
 const styles = {
     navbarLogo: {
         color: 'white',
-        backgroundColor: 'rgb(30, 8, 153)',
-        // backgroundColor: 'black',
+        // backgroundColor: 'rgb(30, 8, 153)',
         fontSize: '28px',
         marginLeft: '25px'
     },
@@ -17,7 +16,8 @@ const styles = {
 
     navbarLocation: {
       backgroundColor: 'black',
-      border: 'none'
+      border: 'none',
+      marginTop: '6px'
     },
   };
 
@@ -30,11 +30,11 @@ function Nav({ currentPage, handlePageChange }) {
           <a className="navbar-brand" style={styles.navbarLogo} >Jonathan Rein</a>
         <li className="nav-item">
           <a style={styles.navbarLocation}
-            href="#home"
-            onClick={() => handlePageChange('Home')}
-            className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+            href="#About"
+            onClick={() => handlePageChange('About')}
+            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
           >
-            Home
+            About
           </a>
         </li>
         <li className="nav-item">
