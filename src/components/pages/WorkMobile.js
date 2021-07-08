@@ -91,11 +91,12 @@ function WorkMobile() {
     </div> 
       <div>
         <h5 style={styles.caption}>
-        Weather Dashboard provides weather data for any city in the world.
+        Tick Tock Birthday Clock is a place to create and share birthday
+            wishlists.
       </h5>
       <h5 style={styles.caption}>
-      It's built with JavaScript. It uses APIs, bootstrap and local
-            storage.
+      It's built with JavaScript. It uses mysql, bcrypt, dotenv, express,
+            handlebars, bootstrap, session and sequelize.
       </h5>
       <div className="button-container">
         <a
