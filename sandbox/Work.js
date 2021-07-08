@@ -9,6 +9,7 @@ import weatherBlur from "../../assets/work-images/Weather-Dashboard-2000x900-blu
 import workday from "../../assets/work-images/Work-Day-Scheduler-2000x900.png";
 import workdayBlur from "../../assets/work-images/Work-Day-Scheduler-2000x900-blur.png";
 
+
 const styles = {
   carouselCaption: {
     position: "absolute",
@@ -20,25 +21,23 @@ const styles = {
     color: "white",
     backgroundColor: "rgb(30, 8, 153)",
     fontSize: "28px",
-    marginLeft: "0px",
+    marginLeft: "5px",
+    marginRight: "5px",
     marginTop: "45px",
   },
-
- 
 };
 
 function Work() {
 
   
   return (
-    <Carousel fade indicators={false} controls={false} >
+    <Carousel fade indicators={false} controls={false} pause={false}>
 
-       {/* provides brief period with no image between slides. */}
+       {/* provides brief period with no image. */}
        <Carousel.Item interval={200}></Carousel.Item>
 
-
       <Carousel.Item interval={1500}>
-        <img className="d-block w-100" src={news} alt="News Flash" />
+        <img  className="d-block w-100" src={news} alt="News Flash" />
       </Carousel.Item>
 
       <Carousel.Item interval={5000}>
@@ -75,7 +74,7 @@ function Work() {
         </Carousel.Caption>
       </Carousel.Item>
 
-      {/* provides brief period with no image between slides. */}
+      {/* provides brief period with no image. */}
       <Carousel.Item interval={200}></Carousel.Item>
 
       <Carousel.Item interval={1500}>
@@ -115,7 +114,7 @@ function Work() {
         </Carousel.Caption>
       </Carousel.Item>
 
-      {/* provides brief period with no image between slides. */}
+      {/* provides brief period with no image. */}
       <Carousel.Item interval={200}></Carousel.Item>
 
       <Carousel.Item interval={1500}>
@@ -160,7 +159,7 @@ function Work() {
         </Carousel.Caption>
       </Carousel.Item>
 
-      {/* provides brief period with no image between slides. */}
+      {/* provides brief period with no image. */}
       <Carousel.Item interval={200}></Carousel.Item>
 
 
@@ -175,7 +174,7 @@ function Work() {
           alt="Workday Scheduler blurred"
         />
         <Carousel.Caption style={styles.carouselCaption}>
-          <h3>Workday Scheduler is a simple day planner.</h3>
+          <h3>Workday Scheduler is a day planner.</h3>
           <h3>
             It's built with JavaScript. It uses moment.js, bootstrap and local
             storage.
@@ -200,7 +199,12 @@ function Work() {
       </Carousel.Item>      
 
     </Carousel>
+    
   );
 }
+
+
+
+
 
 export default Work;

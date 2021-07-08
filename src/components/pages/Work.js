@@ -21,7 +21,8 @@ const styles = {
     color: "white",
     backgroundColor: "rgb(30, 8, 153)",
     fontSize: "28px",
-    marginLeft: "0px",
+    marginLeft: "5px",
+    marginRight: "5px",
     marginTop: "45px",
   },
 };
@@ -36,7 +37,7 @@ function Work() {
        <Carousel.Item interval={200}></Carousel.Item>
 
       <Carousel.Item interval={1500}>
-        <img className="d-block w-100" src={news} alt="News Flash" />
+        <img  className="d-block w-100" src={news} alt="News Flash" />
       </Carousel.Item>
 
       <Carousel.Item interval={5000}>
@@ -141,7 +142,7 @@ function Work() {
           </h3>
           <h3>
             <a
-              href="https://github.com/Xr7TSi/Tick-Tock-Birthday-Clock"
+              href="https://github.com/Xr7TSi/Tick-Tock-Birthday-Clock/"
               class="btn btn-primary"
               style={styles.buttonPrimary}
             >
@@ -173,14 +174,14 @@ function Work() {
           alt="Workday Scheduler blurred"
         />
         <Carousel.Caption style={styles.carouselCaption}>
-          <h3>Workday Scheduler is a simple day planner.</h3>
+          <h3>Workday Scheduler is a day planner.</h3>
           <h3>
             It's built with JavaScript. It uses moment.js, bootstrap and local
             storage.
           </h3>
           <h3>
             <a
-              href="https://github.com/Xr7TSi/Workday-Scheduler"
+              href="https://github.com/Xr7TSi/Workday-Scheduler/"
               class="btn btn-primary"
               style={styles.buttonPrimary}
             >
@@ -207,9 +208,3 @@ function Work() {
 
 
 export default Work;
-
-
-
-
-
-

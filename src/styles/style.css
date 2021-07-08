@@ -9,6 +9,22 @@
   margin-top: 10px;
 }
 
+/* for work.js button styling on mobile */
+.image-container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* for work.js button styling on mobile */
+.button-container {
+  margin-top: -35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .blocktext270 {
   display: flex;
@@ -91,4 +107,6 @@ body {
   background-image: url(../assets/backgrounds/stripes-vertical-shadow-color-wallpaper-preview.jpg);
   font-family: "Source+Sans+Pro", sans-serif;
 }
+
+
 
