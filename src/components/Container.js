@@ -16,7 +16,7 @@ export default function Container() {
     if (currentPage === 'Contact') {
       return <Contact />;
     }
-    if (currentPage === 'Work' && window.innerWidth <= 760) {
+    if (currentPage === 'Work' && window.innerWidth <= 879) {
       return <WorkMobile />;
     }
     if (currentPage === 'Work') {
