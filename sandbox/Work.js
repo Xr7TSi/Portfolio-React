@@ -13,7 +13,7 @@ import workdayBlur from "../../assets/work-images/Work-Day-Scheduler-2000x900-bl
 const styles = {
   carouselCaption: {
     position: "absolute",
-    top: "175px",
+    top: "200px",
     color: "black",
   },
 
@@ -142,7 +142,7 @@ function Work() {
           </h3>
           <h3>
             <a
-              href="https://github.com/Xr7TSi/Tick-Tock-Birthday-Clock"
+              href="https://github.com/Xr7TSi/Tick-Tock-Birthday-Clock/"
               className="btn btn-primary"
               style={styles.buttonPrimary}
             >
@@ -181,7 +181,7 @@ function Work() {
           </h3>
           <h3>
             <a
-              href="https://github.com/Xr7TSi/Workday-Scheduler"
+              href="https://github.com/Xr7TSi/Workday-Scheduler/"
               className="btn btn-primary"
               style={styles.buttonPrimary}
             >
@@ -202,9 +202,6 @@ function Work() {
     
   );
 }
-
-
-
 
 
 export default Work;

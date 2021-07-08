@@ -1,19 +1,19 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import birthday from "../../assets/work-images/Birthday-Clock-2000x900.png";
-import birthdayBlur from "../../assets/work-images/Birthday-Clock-2000x900-blur.png";
-import news from "../../assets/work-images/News-Flash-2000x900.png";
-import newsBlur from "../../assets/work-images/News-Flash-2000x900-blur.png";
-import weather from "../../assets/work-images/Weather-Dashboard-2000x900.png";
-import weatherBlur from "../../assets/work-images/Weather-Dashboard-2000x900-blur.png";
-import workday from "../../assets/work-images/Work-Day-Scheduler-2000x900.png";
-import workdayBlur from "../../assets/work-images/Work-Day-Scheduler-2000x900-blur.png";
+import birthday from "../../assets/work-images/Birthday-Clock-Canvas.png";
+import birthdayBlur from "../../assets/work-images/Birthday-Clock-Blur-Canvas.png";
+import news from "../../assets/work-images/News-Flash-Canvas.png";
+import newsBlur from "../../assets/work-images/News-Flash-Blur-Canvas.png";
+import weather from "../../assets/work-images/Weather-Dashboard-Canvas.png";
+import weatherBlur from "../../assets/work-images/Weather-Dashboard-Blur-Canvas.png";
+import workday from "../../assets/work-images/Work-Day-Scheduler-Canvas.png";
+import workdayBlur from "../../assets/work-images/Work-Day-Scheduler-Blur-Canvas.png";
 
 
 const styles = {
   carouselCaption: {
     position: "absolute",
-    top: "175px",
+    top: "200px",
     color: "black",
   },
 
@@ -202,9 +202,6 @@ function Work() {
     
   );
 }
-
-
-
 
 
 export default Work;
