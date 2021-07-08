@@ -45,7 +45,7 @@ function Tech() {
         <Col xs={8} md={4}>
           <a
             href="https://docs.google.com/document/d/e/2PACX-1vQNIXOZBbExarlcZ2Bx8j77IGd1GlLuicBgRYirct5Ru1CEIHU57YNGps_HXoIj_IOZ6AWQYV1ZtuSm/pub"
-            class="btn btn-primary"
+            className="btn btn-primary"
             style={styles.navbar}
           >
             <Image src={resumeLogo} rounded />

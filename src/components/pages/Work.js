@@ -98,14 +98,14 @@ function Work() {
           <h3>
             <a
               href="https://github.com/Xr7TSi/Weather-Dashboard"
-              class="btn btn-primary"
+              className="btn btn-primary"
               style={styles.buttonPrimary}
             >
               <h5>See the repo</h5>
             </a>
             <a
               href="https://xr7tsi.github.io/Weather-Dashboard/"
-              class="btn btn-primary"
+              className="btn btn-primary"
               style={styles.buttonPrimary}
             >
               <h5>See it deployed</h5>
@@ -143,14 +143,14 @@ function Work() {
           <h3>
             <a
               href="https://github.com/Xr7TSi/Tick-Tock-Birthday-Clock/"
-              class="btn btn-primary"
+              className="btn btn-primary"
               style={styles.buttonPrimary}
             >
               <h5>See the repo</h5>
             </a>
             <a
               href="https://tick-tock-birthday-clock.herokuapp.com/"
-              class="btn btn-primary"
+              className="btn btn-primary"
               style={styles.buttonPrimary}
             >
               <h5>See it deployed</h5>
@@ -182,14 +182,14 @@ function Work() {
           <h3>
             <a
               href="https://github.com/Xr7TSi/Workday-Scheduler/"
-              class="btn btn-primary"
+              className="btn btn-primary"
               style={styles.buttonPrimary}
             >
               <h5>See the repo</h5>
             </a>
             <a
               href="https://xr7tsi.github.io/Workday-Scheduler/"
-              class="btn btn-primary"
+              className="btn btn-primary"
               style={styles.buttonPrimary}
             >
               <h5>See it deployed</h5>
