@@ -107,7 +107,7 @@ function WorkMobile() {
           <h5>See the repo</h5>
         </a>
         <a
-          href="https://xr7tsi.github.io/Tick-Tock-Birthday-Clock/"
+          href="https://tick-tock-birthday-clock.herokuapp.com/"
           className="btn btn-primary"
           style={styles.buttonPrimary}
         >
