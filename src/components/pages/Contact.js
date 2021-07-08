@@ -55,12 +55,12 @@ function Contact() {
 
         <Col xs={8} md={4}>
           <a
-            href="https://www.strava.com/athletes/jonathan_rein"
+            href="tel:404-667-3545"
             className="btn btn-primary"
             style={styles.navbar}
           >
-            <Image src={stravaLogo} rounded />
-            <h5>Strava</h5>
+            <Image src={phoneLogo} rounded />
+            <h5>404-667-3545</h5>
           </a>
         </Col>
 
@@ -77,14 +77,15 @@ function Contact() {
 
         <Col xs={8} md={4}>
           <a
-            href="tel:404-667-3545"
+            href="https://www.strava.com/athletes/jonathan_rein"
             className="btn btn-primary"
             style={styles.navbar}
           >
-            <Image src={phoneLogo} rounded />
-            <h5>404-667-3545</h5>
+            <Image src={stravaLogo} rounded />
+            <h5>Strava</h5>
           </a>
         </Col>
+
       </Row>
     </Container>
   );
