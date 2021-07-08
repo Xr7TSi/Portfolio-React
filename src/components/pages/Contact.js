@@ -111,7 +111,7 @@ const styles = {
   navbar: {
     color: "white",
     backgroundColor: "rgb(30, 8, 153)",
-    fontSize: "28px",
+    fontSize: "24px",
     marginLeft: "25px",
   },
 };
@@ -171,7 +171,7 @@ function Contact() {
             style={styles.navbar}
           >
             <Image src={emailLogo} rounded />
-            <h5>jrein1296@gmail.com</h5>
+            <h6>jrein1296@gmail.com</h6>
           </a>
         </Col>
 
