@@ -4,6 +4,7 @@ import About from './pages/About';
 import Work from './pages/Work';
 import WorkMobile from './pages/WorkMobile';
 import Contact from './pages/Contact';
+import Tech from './pages/Tech';
 
 export default function Container() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -20,6 +21,9 @@ export default function Container() {
     }
     if (currentPage === 'Work') {
       return <Work />;
+    }
+    if (currentPage === 'Tech') {
+      return <Tech />;
     }
     
   };

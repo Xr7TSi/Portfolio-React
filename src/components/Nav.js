@@ -23,84 +23,9 @@ const styles = {
 
 
 
-  // function Nav({ currentPage, handlePageChange }) {
-  //   return (
+  function Nav({ currentPage, handlePageChange }) {
+    return (
       
-  //     <ul className="nav nav-tabs"style={styles.navbarBackground}>
-  //         <a className="navbar-brand" style={styles.navbarLogo} >Jonathan Rein</a>
-  //       <li className="nav-item">
-  //         <a style={styles.navbarLocation}
-  //           href="#About"
-  //           onClick={() => handlePageChange('About')}
-  //           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-  //         >
-  //           About
-  //         </a>
-  //       </li>
-  //       <li className="nav-item">
-  //         <a style={styles.navbarLocation}
-  //           href="#work"
-  //           onClick={() => handlePageChange('Work')}
-  //           className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
-  //         >
-  //           Work
-  //         </a>
-  //       </li>
-    
-  //       <li className="nav-item">
-  //         <a style={styles.navbarLocation}
-  //           href="#contact"
-  //           onClick={() => handlePageChange('Contact')}
-  //           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-  //         >
-  //           Contact
-  //         </a>
-  //       </li>
-  //     </ul>
-  //   );
-  // }
-
-
-  function Nav({ currentPage, handlePageChange }) { 
-    if (window.innerWidth <= 760)
-    return (
-
-      <ul className="nav nav-tabs"style={styles.navbarBackground}>
-          <a className="navbar-brand" style={styles.navbarLogo} >Jonathan Rein &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-        <li className="nav-item">
-          <a style={styles.navbarLocation}
-            href="#About"
-            onClick={() => handlePageChange('About')}
-            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-          >
-            About
-          </a>
-        </li>
-        <li className="nav-item">
-          <a style={styles.navbarLocation}
-            href="#work"
-            onClick={() => handlePageChange('Work')}
-            className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
-          >
-            Work
-          </a>
-        </li>
-    
-        <li className="nav-item">
-          <a style={styles.navbarLocation}
-            href="#contact"
-            onClick={() => handlePageChange('Contact')}
-            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-          >
-            Contact
-          </a>
-        </li>
-      </ul>
-    ); 
-
-    if (window.innerWidth >= 761)
-    return (
-
       <ul className="nav nav-tabs"style={styles.navbarBackground}>
           <a className="navbar-brand" style={styles.navbarLogo} >Jonathan Rein</a>
         <li className="nav-item">
@@ -131,9 +56,118 @@ const styles = {
             Contact
           </a>
         </li>
+
+        {/* <li className="nav-item">
+           <a style={styles.navbarLocation}
+            href="#tech"
+            onClick={() => handlePageChange('Tech')}
+            className={currentPage === 'Tech' ? 'nav-link active' : 'nav-link'}
+          >
+            Tech
+          </a>
+         </li> */}
       </ul>
-    ); 
+    );
   }
+
+
+  // function Nav({ currentPage, handlePageChange }) {
+  //   if (window.innerWidth >= 521)
+  //   return (
+
+  //     <ul className="nav nav-tabs"style={styles.navbarBackground}>
+  //         <a className="navbar-brand" style={styles.navbarLogo} >Jonathan Rein </a>
+  //       <li className="nav-item">
+  //         <a style={styles.navbarLocation}
+  //           href="#About"
+  //           onClick={() => handlePageChange('About')}
+  //           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+  //         >
+  //           About
+  //         </a>
+  //       </li>
+  //       <li className="nav-item">
+  //         <a style={styles.navbarLocation}
+  //           href="#work"
+  //           onClick={() => handlePageChange('Work')}
+  //           className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
+  //         >
+  //           Work
+  //         </a>
+  //       </li>
+    
+  //       <li className="nav-item">
+  //         <a style={styles.navbarLocation}
+  //           href="#contact"
+  //           onClick={() => handlePageChange('Contact')}
+  //           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+  //         >
+  //           Contact
+  //         </a>
+  //       </li>
+
+  //       <li className="nav-item">
+  //         <a style={styles.navbarLocation}
+  //           href="#tech"
+  //           onClick={() => handlePageChange('Tech')}
+  //           className={currentPage === 'Tech' ? 'nav-link active' : 'nav-link'}
+  //         >
+  //           Tech
+  //         </a>
+  //       </li>
+  //     </ul>
+  //   );
+
+  //   if (window.innerWidth <= 520)
+  //   return (
+
+  //     <ul className="nav nav-tabs"style={styles.navbarBackground}>
+  //         <a className="navbar-brand" style={styles.navbarLogo} >Jonathan Rein</a>
+  //       <li className="nav-item">
+  //         <a style={styles.navbarLocation}
+  //           href="#About"
+  //           onClick={() => handlePageChange('About')}
+  //           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+  //         >
+  //           About
+  //         </a>
+  //       </li>
+  //       <li className="nav-item">
+  //         <a style={styles.navbarLocation}
+  //           href="#work"
+  //           onClick={() => handlePageChange('Work')}
+  //           className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
+  //         >
+  //           Work
+  //         </a>
+  //       </li>
+    
+  //       <li className="nav-item">
+  //         <a style={styles.navbarLocation}
+  //           href="#contact"
+  //           onClick={() => handlePageChange('Contact')}
+  //           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+  //         >
+  //           Contact
+  //         </a>
+  //       </li>
+
+  //       <li className="nav-item">
+  //         <a style={styles.navbarLocation}
+  //           href="#tech"
+  //           onClick={() => handlePageChange('Tech')}
+  //           className={currentPage === 'Tech' ? 'nav-link active' : 'nav-link'}
+  //         >
+  //           Tech
+  //         </a>
+  //       </li>
+  //     </ul>
+  //   );
+  // }
+
+
+
+
 
 
 export default Nav;
