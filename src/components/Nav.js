@@ -23,6 +23,13 @@ const styles = {
       border: 'none',
       marginTop: '6px'
     },
+
+    navbarLocationMobile: {
+      backgroundColor: 'black',
+      border: 'none',
+      marginTop: '6px',
+      borderBottom: '1px solid white'
+    },
   };
 
 
@@ -84,7 +91,7 @@ const styles = {
       <ul className="nav nav-tabs"style={styles.navbarBackground}>
         
         <li className="nav-item">
-          <a style={styles.navbarLocation}
+          <a style={styles.navbarLocationMobile}
             href="#About"
             onClick={() => handlePageChange('About')}
             className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
@@ -93,7 +100,7 @@ const styles = {
           </a>
         </li>
         <li className="nav-item">
-          <a style={styles.navbarLocation}
+          <a style={styles.navbarLocationMobile}
             href="#work"
             onClick={() => handlePageChange('Work')}
             className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
@@ -103,7 +110,7 @@ const styles = {
         </li>
     
         <li className="nav-item">
-          <a style={styles.navbarLocation}
+          <a style={styles.navbarLocationMobile}
             href="#contact"
             onClick={() => handlePageChange('Contact')}
             className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
@@ -113,7 +120,7 @@ const styles = {
         </li>
 
         {/* <li className="nav-item">
-          <a style={styles.navbarLocation}
+          <a style={styles.navbarLocationMobile}
             href="#tech"
             onClick={() => handlePageChange('Tech')}
             className={currentPage === 'Tech' ? 'nav-link active' : 'nav-link'}
