@@ -1,9 +1,9 @@
 import React from "react";
 
-import birthday from "../../assets/work-images/Birthday-Clock-400x250.png";
-import news from "../../assets/work-images/News-Flash-400x250.png";
-import weather from "../../assets/work-images/Weather-Dashboard-400x250.png";
-import workday from "../../assets/work-images/Work-Day-Scheduler-400x250.png";
+import birthday from "../../assets/work-images/Birthday-Clock-350x219.png";
+import news from "../../assets/work-images/News-Flash-350x219.png";
+import weather from "../../assets/work-images/Weather-Dashboard-350x219.png";
+import workday from "../../assets/work-images/Work-Day-Scheduler-350x219.png";
 
 const styles = {
 
@@ -20,7 +20,9 @@ const styles = {
     marginRight: "5px",
     marginTop: "45px",
   },
+
 };
+
 
 // additional styling in styles/styles.css
 
