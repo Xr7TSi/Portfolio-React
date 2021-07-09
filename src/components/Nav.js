@@ -6,7 +6,6 @@ const styles = {
         color: 'white',
         backgroundColor: 'black',
         fontSize: '28px',
-
     },
 
     navbarBackground: {
@@ -38,7 +37,10 @@ const styles = {
     return (
 
       <ul className="nav nav-tabs"style={styles.navbarBackground}>
-          <a className="navbar-brand" style={styles.navbarLogo} >Jonathan Rein </a>
+        <div style={styles.navbarText}>
+        <a className="navbar-brand" style={styles.navbarLogo} >Jonathan Rein </a>
+        </div>
+          
         <li className="nav-item">
           <a style={styles.navbarLocation}
             href="#About"
