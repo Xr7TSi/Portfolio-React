@@ -60,6 +60,7 @@ function Work() {
               href="https://github.com/Xr7TSi/News-Flash"
               className="btn btn-primary"
               style={styles.buttonPrimary}
+              target="_blank" rel="noopener noreferrer"
             >
               <h5>See the repo</h5>
             </a>
@@ -67,6 +68,7 @@ function Work() {
               href="https://xr7tsi.github.io/News-Flash/"
               className="btn btn-primary"
               style={styles.buttonPrimary}
+              target="_blank" rel="noopener noreferrer"
             >
               <h5>See it deployed</h5>
             </a>
@@ -100,6 +102,7 @@ function Work() {
               href="https://github.com/Xr7TSi/Weather-Dashboard"
               className="btn btn-primary"
               style={styles.buttonPrimary}
+              target="_blank" rel="noopener noreferrer"
             >
               <h5>See the repo</h5>
             </a>
@@ -107,6 +110,7 @@ function Work() {
               href="https://xr7tsi.github.io/Weather-Dashboard/"
               className="btn btn-primary"
               style={styles.buttonPrimary}
+              target="_blank" rel="noopener noreferrer"
             >
               <h5>See it deployed</h5>
             </a>
@@ -122,6 +126,7 @@ function Work() {
           className="d-block w-100"
           src={birthday}
           alt="Tick Tock Birthday Clock"
+          target="_blank" rel="noopener noreferrer"
         />
       </Carousel.Item>
 
@@ -130,6 +135,7 @@ function Work() {
           className="d-block w-100"
           src={birthdayBlur}
           alt="Tick Tock Birthday Clock blurred"
+          target="_blank" rel="noopener noreferrer"
         />
         <Carousel.Caption style={styles.carouselCaption}>
           <h3>
@@ -145,6 +151,7 @@ function Work() {
               href="https://github.com/Xr7TSi/Tick-Tock-Birthday-Clock/"
               className="btn btn-primary"
               style={styles.buttonPrimary}
+              target="_blank" rel="noopener noreferrer"
             >
               <h5>See the repo</h5>
             </a>
@@ -152,6 +159,7 @@ function Work() {
               href="https://tick-tock-birthday-clock.herokuapp.com/"
               className="btn btn-primary"
               style={styles.buttonPrimary}
+              target="_blank" rel="noopener noreferrer"
             >
               <h5>See it deployed</h5>
             </a>
@@ -184,6 +192,7 @@ function Work() {
               href="https://github.com/Xr7TSi/Workday-Scheduler/"
               className="btn btn-primary"
               style={styles.buttonPrimary}
+              target="_blank" rel="noopener noreferrer"
             >
               <h5>See the repo</h5>
             </a>
@@ -191,6 +200,7 @@ function Work() {
               href="https://xr7tsi.github.io/Workday-Scheduler/"
               className="btn btn-primary"
               style={styles.buttonPrimary}
+              target="_blank" rel="noopener noreferrer"
             >
               <h5>See it deployed</h5>
             </a>

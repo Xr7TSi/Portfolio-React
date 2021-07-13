@@ -45,6 +45,7 @@ function WorkMobile() {
           href="https://github.com/Xr7TSi/News-Flash"
           className="btn btn-primary"
           style={styles.buttonPrimary}
+          target="_blank" rel="noopener noreferrer"
         >
           <h5>See the repo</h5>
         </a>
@@ -52,6 +53,7 @@ function WorkMobile() {
           href="https://xr7tsi.github.io/News-Flash/"
           className="btn btn-primary"
           style={styles.buttonPrimary}
+          target="_blank" rel="noopener noreferrer"
         >
           <h5>See it deployed</h5>
         </a>
@@ -75,6 +77,7 @@ function WorkMobile() {
           href="https://github.com/Xr7TSi/Weather-Dashboard"
           className="btn btn-primary"
           style={styles.buttonPrimary}
+          target="_blank" rel="noopener noreferrer"
         >
           <h5>See the repo</h5>
         </a>
@@ -82,6 +85,7 @@ function WorkMobile() {
           href="https://xr7tsi.github.io/Weather-Dashboard/"
           className="btn btn-primary"
           style={styles.buttonPrimary}
+          target="_blank" rel="noopener noreferrer"
         >
           <h5>See it deployed</h5>
         </a>
@@ -105,6 +109,7 @@ function WorkMobile() {
           href="https://github.com/Xr7TSi/Tick-Tock-Birthday-Clock/"
           className="btn btn-primary"
           style={styles.buttonPrimary}
+          target="_blank" rel="noopener noreferrer"
         >
           <h5>See the repo</h5>
         </a>
@@ -112,6 +117,7 @@ function WorkMobile() {
           href="https://tick-tock-birthday-clock.herokuapp.com/"
           className="btn btn-primary"
           style={styles.buttonPrimary}
+          target="_blank" rel="noopener noreferrer"
         >
           <h5>See it deployed</h5>
         </a>
@@ -134,6 +140,7 @@ function WorkMobile() {
           href="https://github.com/Xr7TSi/Workday-Scheduler/"
           className="btn btn-primary"
           style={styles.buttonPrimary}
+          target="_blank" rel="noopener noreferrer"
         >
           <h5>See the repo</h5>
         </a>
@@ -141,6 +148,7 @@ function WorkMobile() {
           href="https://xr7tsi.github.io/Workday-Scheduler/"
           className="btn btn-primary"
           style={styles.buttonPrimary}
+          target="_blank" rel="noopener noreferrer"
         >
           <h5>See it deployed</h5>
         </a>

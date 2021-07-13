@@ -70,15 +70,15 @@ const styles = {
           </a>
         </li>
 
-        {/* <li className="nav-item">
+        <li className="nav-item">
           <a style={styles.navbarLocation}
-            href="#tech"
-            onClick={() => handlePageChange('Tech')}
-            className={currentPage === 'Tech' ? 'nav-link active' : 'nav-link'}
+            href="#Experience"
+            onClick={() => handlePageChange('Experience')}
+            className={currentPage === 'Experience' ? 'nav-link active' : 'nav-link'}
           >
-            Tech
+            Experience
           </a>
-        </li> */}
+        </li>
       </ul>
     );
 
@@ -121,15 +121,15 @@ const styles = {
           </a>
         </li>
 
-        {/* <li className="nav-item">
+        <li className="nav-item">
           <a style={styles.navbarLocationMobile}
-            href="#tech"
-            onClick={() => handlePageChange('Tech')}
-            className={currentPage === 'Tech' ? 'nav-link active' : 'nav-link'}
+            href="#Experience"
+            onClick={() => handlePageChange('Experience')}
+            className={currentPage === 'Experience' ? 'nav-link active' : 'nav-link'}
           >
-            Tech
+            Experience
           </a>
-        </li> */}
+        </li>
       </ul>
       </div>
     );

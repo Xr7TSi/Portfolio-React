@@ -25,6 +25,7 @@ function Contact() {
             href="https://github.com/Xr7TSi"
             className="btn btn-primary"
             style={styles.navbar}
+            target="_blank" rel="noopener noreferrer"
           >
             <Image src={githubLogo} rounded />
             <h5>GitHub</h5>
@@ -36,6 +37,7 @@ function Contact() {
             href="https://www.linkedin.com/in/jonathan-rein"
             className="btn btn-primary"
             style={styles.navbar}
+            target="_blank" rel="noopener noreferrer"
           >
             <Image src={linkedinLogo} rounded />
             <h5>Linkedin</h5>
@@ -47,6 +49,7 @@ function Contact() {
             href="https://docs.google.com/document/d/e/2PACX-1vQNIXOZBbExarlcZ2Bx8j77IGd1GlLuicBgRYirct5Ru1CEIHU57YNGps_HXoIj_IOZ6AWQYV1ZtuSm/pub"
             className="btn btn-primary"
             style={styles.navbar}
+            target="_blank" rel="noopener noreferrer"
           >
             <Image src={resumeLogo} rounded />
             <h5>Resume</h5>
@@ -58,6 +61,7 @@ function Contact() {
             href="tel:404-667-3545"
             className="btn btn-primary"
             style={styles.navbar}
+            target="_blank" rel="noopener noreferrer"
           >
             <Image src={phoneLogo} rounded />
             <h5>404-667-3545</h5>
@@ -69,6 +73,7 @@ function Contact() {
             href="mailto: jrein1296@gmail.com"
             className="btn btn-primary"
             style={styles.navbar}
+            target="_blank" rel="noopener noreferrer"
           >
             <Image src={emailLogo} rounded />
             <h6>jrein1296@gmail.com</h6>
@@ -80,6 +85,7 @@ function Contact() {
             href="https://www.strava.com/athletes/jonathan_rein"
             className="btn btn-primary"
             style={styles.navbar}
+            target="_blank" rel="noopener noreferrer"
           >
             <Image src={stravaLogo} rounded />
             <h5>Strava</h5>
