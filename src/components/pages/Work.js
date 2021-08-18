@@ -1,4 +1,5 @@
 import React from "react";
+import { Container, Row, Col, Image } from "react-bootstrap";
 
 import birthday from "../../assets/work-images/Birthday-Clock-350x219.png";
 import news from "../../assets/work-images/News-Flash-350x219.png";
@@ -35,8 +36,9 @@ function Work() {
  
    <section>
 
-
-    <div className="image-container">
+<Row>
+        <Col xs={11} md={4}>
+        <div className="image-container">
      <img src={amazon} alt="Amazon" />
      </div>
       <div>
@@ -65,8 +67,10 @@ function Work() {
         </a>
         </div>
     </div>
+        </Col>
 
-     <div className="image-container">
+        <Col xs={11} md={4}>
+        <div className="image-container">
      <img src={news} alt="News Flash" />
      </div>
       <div>
@@ -95,9 +99,10 @@ function Work() {
         </a>
         </div>
     </div>
+        </Col>
 
-
-    <div className="image-container">
+        <Col xs={11} md={4}>
+        <div className="image-container">
      <img src={weather} alt="Weather Dashboard" />
     </div> 
       <div>
@@ -127,8 +132,13 @@ function Work() {
         </a>
         </div>
     </div>
+        </Col>
+      </Row>
 
-    <div className="image-container">
+      <Row>
+
+      <Col xs={11} md={4}>
+      <div className="image-container">
      <img src={birthday} alt="Birthday Clock"/>
     </div> 
       <div>
@@ -160,7 +170,10 @@ function Work() {
         </div>
     </div>
 
-    <div className="image-container">
+      </Col>
+
+      <Col xs={11} md={4}>
+      <div className="image-container">
      <img src={workday} alt="Workday Scheduler"/>
     </div> 
       <div>
@@ -190,6 +203,23 @@ function Work() {
         </a>
         </div>
     </div>
+</Col>
+
+      </Row>
+
+      
+     
+
+
+
+
+
+
+   
+
+  
+
+
 
    </section>
  
