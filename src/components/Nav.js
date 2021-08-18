@@ -66,7 +66,7 @@ const styles = {
             onClick={() => handlePageChange('Contact')}
             className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
           >
-            Contact
+            Connect
           </a>
         </li>
 

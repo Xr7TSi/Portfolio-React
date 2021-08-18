@@ -1,13 +1,13 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import birthday from "../../assets/work-images/Birthday-Clock-2000x900.png";
-import birthdayBlur from "../../assets/work-images/Birthday-Clock-2000x900-blur.png";
-import news from "../../assets/work-images/News-Flash-2000x900.png";
-import newsBlur from "../../assets/work-images/News-Flash-2000x900-blur.png";
-import weather from "../../assets/work-images/Weather-Dashboard-2000x900.png";
-import weatherBlur from "../../assets/work-images/Weather-Dashboard-2000x900-blur.png";
-import workday from "../../assets/work-images/Work-Day-Scheduler-2000x900.png";
-import workdayBlur from "../../assets/work-images/Work-Day-Scheduler-2000x900-blur.png";
+import birthday from "../../assets/work-images/Birthday-Clock-Canvas.png";
+import birthdayBlur from "../../assets/work-images/Birthday-Clock-Blur-Canvas.png";
+import news from "../../assets/work-images/News-Flash-Canvas.png";
+import newsBlur from "../../assets/work-images/News-Flash-Blur-Canvas.png";
+import weather from "../../assets/work-images/Weather-Dashboard-Canvas.png";
+import weatherBlur from "../../assets/work-images/Weather-Dashboard-Blur-Canvas.png";
+import workday from "../../assets/work-images/Work-Day-Scheduler-Canvas.png";
+import workdayBlur from "../../assets/work-images/Work-Day-Scheduler-Blur-Canvas.png";
 
 
 const styles = {
@@ -60,6 +60,7 @@ function Work() {
               href="https://github.com/Xr7TSi/News-Flash"
               className="btn btn-primary"
               style={styles.buttonPrimary}
+              target="_blank" rel="noopener noreferrer"
             >
               <h5>See the repo</h5>
             </a>
@@ -67,6 +68,7 @@ function Work() {
               href="https://xr7tsi.github.io/News-Flash/"
               className="btn btn-primary"
               style={styles.buttonPrimary}
+              target="_blank" rel="noopener noreferrer"
             >
               <h5>See it deployed</h5>
             </a>
@@ -100,6 +102,7 @@ function Work() {
               href="https://github.com/Xr7TSi/Weather-Dashboard"
               className="btn btn-primary"
               style={styles.buttonPrimary}
+              target="_blank" rel="noopener noreferrer"
             >
               <h5>See the repo</h5>
             </a>
@@ -107,6 +110,7 @@ function Work() {
               href="https://xr7tsi.github.io/Weather-Dashboard/"
               className="btn btn-primary"
               style={styles.buttonPrimary}
+              target="_blank" rel="noopener noreferrer"
             >
               <h5>See it deployed</h5>
             </a>
@@ -122,6 +126,7 @@ function Work() {
           className="d-block w-100"
           src={birthday}
           alt="Tick Tock Birthday Clock"
+          target="_blank" rel="noopener noreferrer"
         />
       </Carousel.Item>
 
@@ -130,6 +135,7 @@ function Work() {
           className="d-block w-100"
           src={birthdayBlur}
           alt="Tick Tock Birthday Clock blurred"
+          target="_blank" rel="noopener noreferrer"
         />
         <Carousel.Caption style={styles.carouselCaption}>
           <h3>
@@ -145,6 +151,7 @@ function Work() {
               href="https://github.com/Xr7TSi/Tick-Tock-Birthday-Clock/"
               className="btn btn-primary"
               style={styles.buttonPrimary}
+              target="_blank" rel="noopener noreferrer"
             >
               <h5>See the repo</h5>
             </a>
@@ -152,6 +159,7 @@ function Work() {
               href="https://tick-tock-birthday-clock.herokuapp.com/"
               className="btn btn-primary"
               style={styles.buttonPrimary}
+              target="_blank" rel="noopener noreferrer"
             >
               <h5>See it deployed</h5>
             </a>
@@ -184,6 +192,7 @@ function Work() {
               href="https://github.com/Xr7TSi/Workday-Scheduler/"
               className="btn btn-primary"
               style={styles.buttonPrimary}
+              target="_blank" rel="noopener noreferrer"
             >
               <h5>See the repo</h5>
             </a>
@@ -191,6 +200,7 @@ function Work() {
               href="https://xr7tsi.github.io/Workday-Scheduler/"
               className="btn btn-primary"
               style={styles.buttonPrimary}
+              target="_blank" rel="noopener noreferrer"
             >
               <h5>See it deployed</h5>
             </a>
