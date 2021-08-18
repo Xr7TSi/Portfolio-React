@@ -1,3 +1,6 @@
+ # ![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)
+
+
 ## Jonathan Rein's Portfolio
 
 Welcome to my portfolio.  You'll find links to some of my projects here.
