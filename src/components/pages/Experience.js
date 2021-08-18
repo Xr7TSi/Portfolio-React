@@ -1,11 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import githubLogo from "../../assets/contact-images/github-logo-175x175.jpg";
-import linkedinLogo from "../../assets/contact-images/linkedin-logo-175x175.jpg";
 import resumeLogo from "../../assets/contact-images/resume-logo-175x175.jpg";
-import stravaLogo from "../../assets/contact-images/strava-logo-175x175.jpg";
-import emailLogo from "../../assets/contact-images/email-logo-175x175.png";
-import phoneLogo from "../../assets/contact-images/phone-logo-175x175.png";
+
 
 const styles = {
  text: {
